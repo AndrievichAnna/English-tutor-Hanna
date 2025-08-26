@@ -43,12 +43,7 @@
     .btn.alt{background:transparent; border-color:#fff; color:#fff}
     .btn:focus{outline:3px solid #fff7; outline-offset:2px}
 
-    /* Nav */
-    nav{display:flex; gap:16px; justify-content:center; flex-wrap:wrap; padding:12px 16px; background:#f8fafc; border-bottom:1px solid #e2e8f0}
-    nav a{font-weight:600; color:#0f172a}
-    nav a:hover{text-decoration:underline}
-
-    <nav aria-label="Навигация по странице">
+<nav aria-label="Навигация по странице">
   <a href="#about">Обо мне</a>
   <a href="#format">Формат и подход</a>
   <a href="#pricing">Стоимость</a>
@@ -56,6 +51,11 @@
   <a href="#contacts">Контакты</a>
   <a href="#privacy">Политика конфиденциальности</a>
 </nav>
+    
+    /* Nav */
+    nav{display:flex; gap:16px; justify-content:center; flex-wrap:wrap; padding:12px 16px; background:#f8fafc; border-bottom:1px solid #e2e8f0}
+    nav a{font-weight:600; color:#0f172a}
+    nav a:hover{text-decoration:underline}
     
     /* Sections */
     section{padding:36px 20px; max-width:980px; margin:0 auto}
@@ -182,8 +182,24 @@
   </div>
 </section>
 
-  <!-- Политика конфиденциальности -->
-<section id="privacy">...</section>
+  <section id="privacy">
+  <h2>Политика конфиденциальности</h2>
+  <div class="card">
+    <p class="lead">
+      Я уважаю вашу конфиденциальность и обязуюсь защищать ваши персональные данные.
+    </p>
+    <ul class="nice">
+      <li>Собираю только ту информацию, которая необходима для связи и организации уроков (имя, email, Telegram/WhatsApp).</li>
+      <li>Данные, отправленные через Google Forms (тест), используются только для определения уровня и планирования занятий.</li>
+      <li>Никогда не передаю ваши данные третьим лицам.</li>
+      <li>Вы можете в любой момент запросить удаление ваших данных, написав на мой email.</li>
+      <li>Cookies на сайте не используются, кроме базовых для отображения страницы.</li>
+    </ul>
+    <p class="lead" style="margin-top:10px">
+      Продолжая использовать сайт, вы соглашаетесь с этой политикой конфиденциальности.
+    </p>
+  </div>
+</section>
 
 <footer>
   <p>© 2025 Репетитор английского | Онлайн-занятия для взрослых A1–A2</p>
